@@ -1,0 +1,47 @@
+body.bra-scroll-bar {    background: #f6f6f6 !important;}
+
+.bra-admin-top .column.open_item.active{background: rgba(203, 247, 255, 0.35)}
+.bra-admin-top .column.open_item.active a{color: #009688;}
+.bra-admin-top-right{background:#fffae8}
+
+/** 左边菜单公用样式 **/
+.menu-list .menu-item{color: #eee;}
+.menu-list .menu-item:hover{color:#333;background: #eee;}
+.menu-list .menu-item.active{color:#eee;background: #009688}
+
+.tool-icon{padding-right:15px ;font-size:16px}
+.tool-icon .layui-icon{padding:0 15px ;font-size:16px}
+
+/** 左边菜单第二栏 **/
+.menu-list-sub{background: #fafafa;box-shadow:2px 0 6px #ccc}
+.menu-list-sub .menu-item-sub{color: #333;}
+.menu-list-sub .menu-item-three{color:#666;}
+.menu-list-sub .menu-item-three:hover{color: #666; background: rgba(0, 49, 112, 0.08)}
+.menu-list-sub .menu-item-three.active{color: #009688; background: rgba(190, 232, 239, 0.35)}
+
+
+/* 默认布局 */
+
+.default_open .menu-list{background:#393D49;}
+.default_open .menu-list .menu-item:hover{color:#333;background: #eee;}
+.default_open .menu-list .menu-item.active{color:#eee;background: #009688}
+
+
+/* 窄边布局 */
+.menu_narrow .menu-list{background:#393D49;}
+
+
+
+/* drag and drop*/
+.sortable-selected{background:#1f9004;color:#fff}
+
+.login-container {width: 100%;height: 100%;overflow: hidden;background: url(./images/login-bg.jpg) no-repeat center center;background-size: cover;}
+
+.bra-admin-body{ background:url('./images/icon_load.gif') center no-repeat;}
+.bra-body .bra-body-header{background:#fdfdfd;border-bottom:1px solid #f3f3f3}
+
+/* data table*/
+.bra_tr_99{background:#edffee;}
+.bra_tr_3{background:#ffe9e9;}
+.bra_tr_2{background:#fcf0ff;}
+.bra_tr_1{background:#ffffd5;}

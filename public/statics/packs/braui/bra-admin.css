@@ -1,0 +1,142 @@
+body.bra-scroll-bar{background:0 0}
+.bra-body.bra-wrapper{overflow:hidden;min-height:100vh;padding:7.5px}
+.layui-table[lay-size=sm] td,.layui-table[lay-size=sm] th{padding:5px;line-height:24px}
+td a.layui-btn.layui-btn-sm{line-height:24px;padding:0 5px;height:auto;margin:0 5px 0 0}
+.layui-form .layui-form-item .layui-form-label{overflow:visible;padding: 8px 5px;}
+.layui-form .layui-form-item .layui-input-inline.auto{width:auto}
+.layui-form.layui-form-pane .layui-input-block{}
+/**header **/
+.bra-admin-header{height:50px;left:0;position:fixed;top:0;width:100%;z-index:500}
+.bra-admin-side{position:fixed;top:0;z-index:400;}
+.bra-admin-side .logo{font-weight:300;height:52px;overflow:hidden;z-index:1002}
+.navbar-item .layui-icon{
+    margin-right:5px;
+}.navbar-brand a{
+     width:150px;justify-content: center;align-items: center;
+ }
+/** bra side **/
+.bra-v-scroll{height:100%;overflow-x:hidden}
+.menu-list li ul{margin-top:0;font-size:.8rem}
+
+/** sub tabs **/
+.bra-admin-tabs{box-sizing:border-box;height:40px;left: 150px;line-height:40px;position:fixed;right:0;top:50px;z-index:450}
+.bra-admin-tabs .controller{box-sizing:border-box;cursor:pointer;height:100%;position:absolute;text-align:center;top:0;-webkit-transition:all .3s;transition:all .3s;width:40px}
+.bra-admin-tabs div.left{left:0}
+.bra-admin-tabs div.right{right:40px}
+.bra-admin-tabs div.down{right:0}
+.bra-admin-tabs ul{font-size:0;height:40px;left:0;overflow:hidden;position:relative;-webkit-transition:all .2s;transition:all .2s;white-space:nowrap}
+.bra-admin-tabs li{cursor:pointer;display:inline-block;font-size:14px;line-height:40px;padding:0 15px 0 0;position:relative;text-align:center;-webkit-transition:all .2s;transition:all .2s;vertical-align:middle}
+.bra-admin-tabs li span{display:inline-block;padding:0 0 0 15px}
+.bra-admin-tabs li .layui-icon-close:hover{color:red}
+
+/** bra admin body **/
+.bra-admin-body{bottom:0;left:150px;overflow:hidden;overflow-y:auto;position:fixed;right:0;top:94px;width:auto;z-index:-1}
+.bra-admin-tab-body-item{bottom:0;left:0;overflow:hidden;position:absolute;right:0;top:0}
+.bra-admin-iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}
+.bra-body .bra-body-header{border-radius: 3px;width:100%;padding:10px 20px;}
+.layui-fixbar li{width:40px!important;height:40px!important;line-height:40px!important;margin-bottom:5px!important;font-size:20px!important}
+.sub-menu-top{margin-bottom:10px}
+
+
+/** upload**/
+.weui-uploader__input-box{float:left;position:relative;margin-right:9px;margin-bottom:9px;width:79px;height:79px;border:1px solid #d9d9d9}
+.weui-uploader__input-box:before{width:2px;height:39.5px}
+.weui-uploader__input-box:after{width:39.5px;height:2px}
+.weui-uploader__input-box:after,.weui-uploader__input-box:before{content:" ";position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:#d9d9d9}
+.weui-uploader__input{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;opacity:0;-webkit-tap-highlight-color:transparent}
+.bra-upload-list>.layui-upload-img{float:left;position:relative;text-align:center;font-size:23px;overflow:hidden}
+.weui-uploader__file{float:left;margin-right:9px;margin-bottom:9px;width:79px;height:79px;line-height:79px;background:no-repeat 50%;background-size:cover}
+.bra-upload-list>.layui-upload-img .close{position:absolute;right:-4px;top:0;background-color:#7a7a7a;opacity:.5;width:25px;height:25px;line-height:25px;color:red}
+
+/** upload**/
+.bra-uploader__input-box{float:left;position:relative;margin-right:9px;margin-bottom:9px;width:79px;height:79px;border:1px solid #d9d9d9}
+.bra-uploader__input-box:before{width:2px;height:39.5px}
+.bra-uploader__input-box:after{width:39.5px;height:2px}
+.bra-uploader__input-box:after,.bra-uploader__input-box:before{content:" ";position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:#d9d9d9}
+.bra-uploader__input{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;opacity:0;-webkit-tap-highlight-color:transparent}
+.bra-upload-list>.bra-upload-img{float:left;position:relative;text-align:center;font-size:23px;overflow:hidden}
+.bra-uploader__file{float:left;margin-right:9px;margin-bottom:9px;width:79px;height:79px;background:no-repeat 50%;background-size:cover}
+.bra-uploader__file .bra-file-name{
+    position:absolute;width:100%;background:rgba(0,0,0,0.3);top:0;left:0;
+}
+
+/* bra admin list table search*/
+.bra-form-item .layui-form-label{width:110px}
+.ui.selection.dropdown.active, .ui.selection.dropdown.visible{z-index:1000!important;}
+/* bra forms */
+
+.bra-radio{line-height: 36px;padding: 0 10px;}
+
+/**tables**/
+.layui-table .bra-img-icon{height:20px}
+
+.amap-icon img, .amap-marker-content img {
+    width: 25px;
+    height: 34px;
+}
+
+
+
+.tab-hidden ,.tab-hidden iframe{display:none}
+
+
+::-webkit-scrollbar{width:1px;}
+
+.bra-mask{position:fixed;width:100vw;height:100vh;background:rgba(0,0,0,0.3);left:0;top:0}
+.bra-admin-top{position: fixed;right:0;z-index:2000; top: 0;width: 100%;overflow: hidden;border-bottom: 1px solid rgba(170, 170, 170, 0.22);}
+.bra-admin-top .column{line-height:55px;height:55px;}
+.bra-admin-top .column.open_item{font-size: 14px;border-left: 1px solid #eee;cursor: pointer;}
+.bra-admin-top .open_scroll{}
+.bra-admin-top .bra-admin-top-right a{padding:0 10px}
+.bra-admin-top .bra-admin-top-right i.layui-icon-close{margin-right:10px}
+
+.bar_admin_logo{
+    line-height:55px;height:55px;
+    text-align: center;
+    color: #fff;transition:all .3s;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.22);
+}
+
+
+
+/** 左边菜单公用样式 **/
+.menu-list{overflow-y:auto;white-space: nowrap;position: relative;z-index: 99;}
+.menu-list .menu-item{line-height:55px;text-align: center;padding-right: 20px;cursor: pointer}
+.menu-list .menu-item span{padding-left: 10px;}
+
+
+
+/** 左边菜单第二栏 **/
+.menu-list-sub{width:130px!important;opacity: 1;white-space:nowrap;overflow-y: scroll;margin-top:55px!important;}
+.menu-list-sub .menu-item-sub{line-height:40px;font-size:12px;font-weight: 600;color: #333;padding-left: 15px;}
+.menu-list-sub .menu-item-three{line-height:45px;font-size:12px;padding-left: 28px;cursor: pointer}
+
+.bra-admin-body{top:55px;}
+
+.default_open .menu-list,.menu_narrow .menu-list,
+.default_open .bra-admin-top, .menu_narrow .bra-admin-top{transition:all .5s;}
+
+
+
+
+/* 默认布局 */
+
+.default_open .menu-list{width: 120px; height: 100%;}
+.default_open .menu-list .menu-item{line-height:55px;text-align: center;padding-right: 20px;cursor: pointer}
+.default_open .menu-list .menu-item span{padding-left: 10px;}
+.default_open .menu-list .menu-item:hover{transition:all .3s}
+.default_open .menu-list .bar_admin_logo .logo-text{}
+.default_open .bra-admin-top{padding-left: 120px;}
+.default_open .bra-admin-body{left:120px;}
+
+
+/* 窄边布局 */
+.menu_narrow .menu-list{width:50px!important;text-align: center;}
+.menu_narrow .menu-list.menu-list-narrow .menu-item{padding-right: 0!important;}
+.menu_narrow .menu-list .menu-item span{display:inline-block; opacity: 1;transition:all .5s; }
+.menu_narrow .menu-list .menu-item span{display: none; opacity: 0; transition:all .5s;}
+.menu_narrow .menu-list .bar_admin_logo{font-size: 10px!important;transition:all .5s; }
+.menu_narrow .bra-admin-top{padding-left: 50px;}
+.menu_narrow .bra-admin-body{left:50px;}
+
+

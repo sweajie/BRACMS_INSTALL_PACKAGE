@@ -1,0 +1,7 @@
+config/*
+public/statics/*
+public/themes/*
+app/*
+bra/*
+admin_views/*
+bra_views/*

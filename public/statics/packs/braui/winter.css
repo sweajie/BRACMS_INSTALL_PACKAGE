@@ -1,0 +1,45 @@
+/** Moving Border */
+.box_run{
+    width:100%;
+    margin:0 auto;
+    padding:1em;
+    background-image:repeating-linear-gradient(135deg, #c1200e, #f09290 30px, transparent 0, transparent 50px, #1561a0 0, #84adcb 80px, transparent 0, transparent 100px);
+    background-size:200% 200%;
+    -webkit-animation:barberpole 60s linear infinite;
+    animation:barberpole 60s linear infinite;
+}
+@-webkit-keyframes barberpole{
+    to{background-position:100% 100%}
+}
+@keyframes barberpole{
+    to{background-position:100% 100%}
+}
+/** Admin Login */
+.login_item{
+    border-top:0 solid #eee;padding:15px 5px 30px 5px;margin:0 30px !important;
+    background:url(http://cdn.nanalove.shop/annex/1/20201231/1352fbf1f3e4a9273e8b5756014541a3.png) no-repeat center bottom;
+    margin-bottom:20px;
+}
+.login_button .login-btn {
+    border-radius: 30px;
+    height: 55px !important;
+    line-height: 55px !important;
+    padding: 0;
+    color: #fff;
+    border: none;
+    background-image: url(http://cdn.nanalove.shop/annex/1/20201231/f983b29ad0c40b609677a6e9fe3ae1e8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:35px;
+}
+
+.login-container{
+    background:url(https://img.zcool.cn/community/015a785e15a91aa80120a89502c624.jpg@3000w_1l_2o_100sh.jpg) no-repeat right top !important;
+    transition:all .3s;background-size:cover;
+}
+.right_box.show{
+    background:rgba(255, 255, 255, 1);
+}
+.left_box{
+    background:rgba(240, 248, 255, 0.61);
+}
