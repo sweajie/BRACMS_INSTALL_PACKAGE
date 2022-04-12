@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | 鸣鹤CMS [ New Better  ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://www.bracms.com All rights reserved.
+// | Copyright (c) 2006~2017 http://www.mhcms.net All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( 您必须获取授权才能进行使用 )
 // +----------------------------------------------------------------------
@@ -12,6 +12,8 @@ namespace Bra\core\objects;
 
 use App\Models\User;
 use ArrayAccess;
+use Bra\wechat_mini\objects\MiniApp;
+use Bra\wechat_off\objects\OfficialApp;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Foundation\Application;
 use Illuminate\Http\Request;
@@ -21,12 +23,15 @@ class BraCMS_W  implements ArrayAccess {
 
 	public User $user;
 	public array $site = [];
+	public int $bra_client;
 	public array $mapping = [];
 	public string $current_url;
+	public $module;
 	public array $bra_scripts = [];
-	public array $bra_templates = [];
 
 	private Application $app;
+	public MiniApp $wechat_mini_app;
+	public OfficialApp $wechat_official_app;
 
 	#debug area
 	public bool $debug = false;

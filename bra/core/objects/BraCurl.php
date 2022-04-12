@@ -25,7 +25,7 @@ class BraCurl
 				$config['headers']
 			);
 		}
-//		$config['verify'] = false;
+		$config['verify']  =false;
 		$this->client = new Client($config);
 	}
 
