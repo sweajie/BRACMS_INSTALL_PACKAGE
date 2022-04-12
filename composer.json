@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-json": "*",
+        "doctrine/dbal": "^3.3",
         "fideloper/proxy": "^4.4",
         "flc/dysms": "^1.0",
         "fruitcake/laravel-cors": "^2.0",
@@ -50,6 +51,7 @@
         "psr-4": {
             "App\\": "app/",
             "Bra\\": "bra/",
+            "BraPlugins\\": "plugins/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
